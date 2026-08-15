@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabaña El Cheruvicha – Braford · Misiones, Argentina</title>
+  <meta name="description" content="Cabaña El Cheruvicha – Genética Braford seleccionada para el nordeste argentino. Toros y vaquillonas de pedigree. Curupayá S.A., Misiones.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #FAFAF8;
+      color: #1C0A04;
+      font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    .nav {
+      background: #1C0A04;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(20px, 5vw, 64px);
+      height: 64px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .nav-brand-name {
+      font-family: Georgia, serif;
+      font-size: 0.9rem;
+      color: #F0EBE0;
+      letter-spacing: 0.04em;
+      line-height: 1.2;
+    }
+    .nav-brand-sub {
+      font-size: 0.55rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(240,235,224,0.45);
+      display: block;
+    }
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(240,235,224,0.65);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #F0EBE0; }
+    @media (max-width: 640px) { .nav-links { display: none; } }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      height: 92vh;
+      min-height: 500px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.1) 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: clamp(32px, 6vw, 72px) clamp(20px, 6vw, 80px);
+      max-width: 800px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.65rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #9B3520;
+      margin-bottom: 16px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 1px;
+      background: #9B3520;
+    }
+    .hero-h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(2.4rem, 6.5vw, 5.5rem);
+      font-weight: normal;
+      line-height: 1.05;
+      color: #F0EBE0;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+      margin-bottom: 20px;
+      text-wrap: balance;
+    }
+    .hero-h1 em {
+      font-style: italic;
+      color: #E8A882;
+    }
+    .hero-sub {
+      font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+      color: rgba(240,235,224,0.8);
+      max-width: 52ch;
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+    .hero-cta {
+      display: inline-block;
+      background: #9B3520;
+      color: #F0EBE0;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 14px 32px;
+      transition: background 0.2s;
+    }
+    .hero-cta:hover { background: #7A2818; }
+
+    /* STATS */
+    .stats {
+      background: #9B3520;
+      display: flex;
+    }
+    .stat {
+      flex: 1;
+      text-align: center;
+      padding: 22px 16px;
+      border-right: 1px solid rgba(255,255,255,0.15);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-family: Georgia, serif;
+      font-size: clamp(1.5rem, 2.8vw, 2rem);
+      color: #F0EBE0;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(240,235,224,0.65);
+    }
+    @media (max-width: 560px) {
+      .stats { flex-wrap: wrap; }
+      .stat { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.15); }
+      .stat:nth-child(even) { border-right: none; }
+      .stat:last-child, .stat:nth-last-child(2) { border-bottom: none; }
+    }
+
+    /* SECTIONS */
+    .section { padding: clamp(56px, 9vh, 96px) clamp(20px, 5vw, 80px); }
+    .section-alt { background: #F3EFEA; }
+    .section-dark { background: #1C0A04; }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .section-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #9B3520;
+      white-space: nowrap;
+    }
+    .section-line {
+      flex: 1;
+      height: 1px;
+      background: #DDD4CB;
+    }
+    .section-dark .section-line { background: rgba(255,255,255,0.1); }
+    .section-dark .section-label { color: #C4793A; }
+
+    .section-title {
+      font-family: Georgia, serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: normal;
+      color: #1C0A04;
+      text-wrap: balance;
+      line-height: 1.15;
+      margin-bottom: 14px;
+    }
+    .section-dark .section-title { color: #F0EBE0; }
+    .section-desc {
+      font-size: 1rem;
+      color: #5A3D30;
+      max-width: 60ch;
+      line-height: 1.75;
+    }
+    .section-dark .section-desc { color: rgba(240,235,224,0.6); }
+
+    /* RAZA SPLIT */
+    .raza-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(32px, 6vw, 72px);
+      align-items: start;
+    }
+    .raza-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 2px;
+    }
+    .raza-breed {
+      font-family: Georgia, serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: normal;
+      color: #1C0A04;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .raza-since {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #9B3520;
+      margin-bottom: 20px;
+    }
+    .raza-body {
+      font-size: 0.95rem;
+      color: #5A3D30;
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+    .attrs { border-top: 1px solid #DDD4CB; }
+    .attr {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 12px 0;
+      border-bottom: 1px solid #EDE8E2;
+      gap: 16px;
+    }
+    .attr-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #8A6A5A;
+      flex-shrink: 0;
+    }
+    .attr-val {
+      font-size: 0.88rem;
+      color: #1C0A04;
+      text-align: right;
+    }
+    @media (max-width: 680px) {
+      .raza-split { grid-template-columns: 1fr; }
+      .attr { flex-direction: column; gap: 3px; }
+      .attr-val { text-align: left; }
+    }
+
+    /* HERITAGE BAND */
+    .heritage {
+      background: #1C0A04;
+      padding: clamp(48px, 8vh, 80px) clamp(20px, 5vw, 80px);
+      text-align: center;
+    }
+    .heritage-quote {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: clamp(1.3rem, 3vw, 2.2rem);
+      color: #F0EBE0;
+      max-width: 680px;
+      margin: 0 auto 12px;
+      line-height: 1.4;
+      text-wrap: balance;
+    }
+    .heritage-quote em { font-style: normal; color: #C4793A; }
+    .heritage-attr {
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(240,235,224,0.35);
+    }
+
+    /* CAMPOS */
+    .campos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .campo-card {
+      background: #fff;
+      border: 1px solid #DDD4CB;
+      border-radius: 2px;
+      overflow: hidden;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .campo-card:hover {
+      box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+      transform: translateY(-2px);
+    }
+    .campo-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .campo-body { padding: 20px 22px 24px; }
+    .campo-tag {
+      display: inline-block;
+      font-size: 0.58rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #9B3520;
+      border: 1px solid #9B3520;
+      padding: 3px 8px;
+      margin-bottom: 10px;
+      border-radius: 1px;
+    }
+    .campo-nombre {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: #1C0A04;
+      margin-bottom: 10px;
+    }
+    .campo-desc {
+      font-size: 0.88rem;
+      color: #5A3D30;
+      line-height: 1.7;
+    }
+    @media (max-width: 680px) {
+      .campos-grid { grid-template-columns: 1fr; }
+    }
+
+    /* OFERTA */
+    .oferta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 36px;
+    }
+    .oferta-card {
+      background: #fff;
+      border: 1px solid #DDD4CB;
+      border-top: 3px solid #9B3520;
+      border-radius: 0 0 2px 2px;
+      overflow: hidden;
+    }
+    .oferta-img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
+    }
+    .oferta-body { padding: 22px 24px 26px; }
+    .oferta-card-title {
+      font-family: Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: normal;
+      color: #1C0A04;
+      margin-bottom: 10px;
+    }
+    .oferta-card-desc {
+      font-size: 0.9rem;
+      color: #5A3D30;
+      line-height: 1.75;
+    }
+    @media (max-width: 620px) { .oferta-grid { grid-template-columns: 1fr; } }
+
+    /* GALERIA */
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .galeria-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      border-radius: 1px;
+      transition: opacity 0.2s;
+    }
+    .galeria-img:hover { opacity: 0.88; }
+    .galeria-img.tall {
+      aspect-ratio: 3/4;
+      grid-row: span 1;
+    }
+    @media (max-width: 560px) {
+      .galeria-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* FOOTER */
+    .footer {
+      background: #120205;
+      padding: clamp(40px, 7vh, 72px) clamp(20px, 5vw, 80px) 28px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: clamp(24px, 5vw, 60px);
+      margin-bottom: 40px;
+    }
+    .footer-brand-name {
+      font-family: Georgia, serif;
+      font-size: 1.1rem;
+      color: #F0EBE0;
+      margin: 14px 0 8px;
+    }
+    .footer-brand-desc {
+      font-size: 0.82rem;
+      color: rgba(240,235,224,0.4);
+      line-height: 1.7;
+      max-width: 30ch;
+    }
+    .footer-col-title {
+      font-size: 0.6rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #9B3520;
+      margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col a {
+      font-size: 0.85rem;
+      color: rgba(240,235,224,0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: #F0EBE0; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .footer-legal { font-size: 0.68rem; color: rgba(240,235,224,0.22); }
+    @media (max-width: 640px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+    .reveal-d1 { transition-delay: 0.12s; }
+    .reveal-d2 { transition-delay: 0.24s; }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav-brand" href="#">
+    <svg width="34" height="24" viewBox="0 0 130 90" fill="none">
+      <g stroke="#9B3520" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="7" y1="10" x2="26" y2="27"/>
+        <line x1="26" y1="27" x2="54" y2="27"/>
+        <line x1="76" y1="27" x2="104" y2="27"/>
+        <line x1="104" y1="27" x2="123" y2="10"/>
+        <line x1="65" y1="27" x2="65" y2="56"/>
+        <line x1="26" y1="56" x2="104" y2="56"/>
+        <path d="M26,56 A13,17 0 0,1 52.7,56"/>
+        <path d="M52.7,56 A13,17 0 0,1 79.3,56"/>
+        <path d="M79.3,56 A12.7,17 0 0,1 104,56"/>
+      </g>
+    </svg>
+    <div>
+      <span class="nav-brand-name">El Cheruvicha</span>
+      <span class="nav-brand-sub">Curupayá S.A.</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#raza">La raza</a></li>
+    <li><a href="#campos">Campos</a></li>
+    <li><a href="#reproductores">Reproductores</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img class="hero-img" src="images/8b4bb39f-9aac-4258-84fe-859062c73f9c.jpg" alt="Rodeo Braford al atardecer – Cabaña El Cheruvicha">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Cabaña El Cheruvicha · Misiones, Argentina</div>
+    <h1 class="hero-h1">Genética <em>Braford</em><br>para el norte argentino</h1>
+    <p class="hero-sub">Décadas de selección en el NEA. Reproductores evaluados en campo, adaptados al calor, la humedad y las pasturas nativas.</p>
+    <a class="hero-cta" href="#reproductores">Ver reproductores</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-num">3</div>
+    <div class="stat-label">Campos propios</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">NEA</div>
+    <div class="stat-label">Adaptación comprobada</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">100%</div>
+    <div class="stat-label">Pedigree verificado</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">Braford</div>
+    <div class="stat-label">Raza exclusiva</div>
+  </div>
+</div>
+
+<!-- RAZA -->
+<section class="section" id="raza">
+  <div class="section-head reveal">
+    <span class="section-label">La raza</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="raza-split">
+    <img class="raza-img reveal" src="images/IMG_6651.jpeg" alt="Vaca madre con ternero Braford – El Cheruvicha">
+    <div class="reveal reveal-d1">
+      <div class="raza-since">Hereford × Brahman</div>
+      <h2 class="raza-breed">Braford</h2>
+      <p class="raza-body">El Braford nació de la necesidad de criar bien en el norte argentino — un ambiente donde el calor, la humedad y los ectoparásitos desafían la producción. Décadas de selección en El Cheruvicha orientaron el trabajo hacia animales de temperamento dócil, alta fertilidad y ganancia de peso real en pasturas nativas y mejoradas. Sin concesiones. Genética para producir, no para exponer.</p>
+      <div class="attrs">
+        <div class="attr"><span class="attr-label">Adaptación</span><span class="attr-val">NEA · Trópico · Subtrópico</span></div>
+        <div class="attr"><span class="attr-label">Resistencia</span><span class="attr-val">Garrapata · Calor · Humedad</span></div>
+        <div class="attr"><span class="attr-label">Maternidad</span><span class="attr-val">Alta preñez · Buena leche</span></div>
+        <div class="attr"><span class="attr-label">Temperamento</span><span class="attr-val">Dócil · Manejable</span></div>
+        <div class="attr"><span class="attr-label">Conversión</span><span class="attr-val">Eficiente en pasturas tropicales</span></div>
+        <div class="attr"><span class="attr-label">Origen</span><span class="attr-val">Hereford × Brahman</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HERITAGE -->
+<div class="heritage">
+  <p class="heritage-quote reveal">"Genética que se mide <em>en el campo</em>, no en el catálogo."</p>
+  <span class="heritage-attr">Cabaña El Cheruvicha · Misiones</span>
+</div>
+
+<!-- CAMPOS -->
+<section class="section section-alt" id="campos">
+  <div class="section-head reveal">
+    <span class="section-label">Nuestros campos</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="campos-grid">
+    <div class="campo-card reveal">
+      <img class="campo-img" src="images/IMG_5351.jpeg" alt="San Marcelo – rodeo de cría">
+      <div class="campo-body">
+        <span class="campo-tag">Cría · Recría</span>
+        <div class="campo-nombre">San Marcelo</div>
+        <p class="campo-desc">Núcleo productivo del rodeo. Aquí comienza la cadena de selección bajo criterios de adaptación, mansedumbre y eficiencia reproductiva.</p>
+      </div>
+    </div>
+    <div class="campo-card reveal reveal-d1">
+      <img class="campo-img" src="images/IMG_6900.jpeg" alt="Don Tulio – producción forestal y ganadera" style="object-position: center 20%;">
+      <div class="campo-body">
+        <span class="campo-tag">Ganadero · Forestal</span>
+        <div class="campo-nombre">Don Tulio</div>
+        <p class="campo-desc">Producción ganadera y forestal integrada. Campos en expansión con manejo rotacional y mejoramiento de pasturas nativas.</p>
+      </div>
+    </div>
+    <div class="campo-card reveal reveal-d2">
+      <img class="campo-img" src="images/IMG_5236.jpeg" alt="El Cheruvicha – sede de la cabaña">
+      <div class="campo-body">
+        <span class="campo-tag">Sede · Cabaña</span>
+        <div class="campo-nombre">El Cheruvicha</div>
+        <p class="campo-desc">Sede de la cabaña. Toros y vaquillonas de pedigree seleccionados por DEPs y performance real. El origen del hierro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section class="section" id="reproductores">
+  <div class="section-head reveal">
+    <span class="section-label">Reproductores</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="section-title reveal">Material genético para transformar tu rodeo</div>
+  <p class="section-desc reveal reveal-d1">Seleccionados por DEPs, pedigree verificado y performance en condiciones reales del NEA. Sin concesiones.</p>
+  <div class="oferta-grid">
+    <div class="oferta-card reveal reveal-d1">
+      <img class="oferta-img" src="images/IMG_5322.jpeg" alt="Toros Braford – Cabaña El Cheruvicha">
+      <div class="oferta-body">
+        <h3 class="oferta-card-title">Toros Braford</h3>
+        <p class="oferta-card-desc">Reproductores seleccionados por DEPs, conformación y temperamento. Aptos para cruzamiento absorbente y plantel puro. Evaluados en campo, no en exposición.</p>
+      </div>
+    </div>
+    <div class="oferta-card reveal reveal-d2">
+      <img class="oferta-img" src="images/IMG_3947.jpeg" alt="Vaquillonas Braford – Cabaña El Cheruvicha" style="object-position: center 40%;">
+      <div class="oferta-body">
+        <h3 class="oferta-card-title">Vaquillonas</h3>
+        <p class="oferta-card-desc">Hembras con excelente capacidad materna, seleccionadas por fertilidad, facilidad de parto y conformación. Genética femenina de primer nivel para renovar el plantel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="section section-alt" id="galeria">
+  <div class="section-head reveal">
+    <span class="section-label">Galería</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="galeria-grid">
+    <img class="galeria-img reveal" src="images/IMG_4788.jpeg" alt="Toro Braford – El Cheruvicha">
+    <img class="galeria-img reveal reveal-d1" src="images/IMG_6901.jpeg" alt="Ternero Braford – El Cheruvicha">
+    <img class="galeria-img reveal reveal-d2" src="images/IMG_8299.jpeg" alt="Terneros Braford – Cabaña El Cheruvicha" style="object-position: center 30%;">
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contacto">
+  <div class="footer-grid">
+    <div>
+      <svg width="40" height="28" viewBox="0 0 130 90" fill="none">
+        <g stroke="#9B3520" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="10" x2="26" y2="27"/>
+          <line x1="26" y1="27" x2="54" y2="27"/>
+          <line x1="76" y1="27" x2="104" y2="27"/>
+          <line x1="104" y1="27" x2="123" y2="10"/>
+          <line x1="65" y1="27" x2="65" y2="56"/>
+          <line x1="26" y1="56" x2="104" y2="56"/>
+          <path d="M26,56 A13,17 0 0,1 52.7,56"/>
+          <path d="M52.7,56 A13,17 0 0,1 79.3,56"/>
+          <path d="M79.3,56 A12.7,17 0 0,1 104,56"/>
+        </g>
+      </svg>
+      <div class="footer-brand-name">Cábaña El Cheruvicha</div>
+      <p class="footer-brand-desc">Braford seleccionado para el nordeste argentino. Curupayá S.A. · Misiones, Argentina.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">La cabaña</div>
+      <ul>
+        <li><a href="#raza">La raza</a></li>
+        <li><a href="#campos">Nuestros campos</a></li>
+        <li><a href="#reproductores">Reproductores</a></li>
+        <li><a href="#galeria">Galería</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Contacto</div>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">WhatsApp</a></li>
+        <li><a href="#">Misiones, Argentina</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-legal">© Curupayá S.A. · Cabaña El Cheruvicha · Misiones</span>
+    <span class="footer-legal">Próximamente: remate anual de reproductores</span>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
