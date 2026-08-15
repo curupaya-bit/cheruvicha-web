@@ -20,7 +20,8 @@
 
     /* NAV */
     .nav {
-      background: #1C0A04;
+      background: #F2EBE0;
+      border-bottom: 1px solid #DDD4CB;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -28,27 +29,17 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 clamp(20px, 5vw, 64px);
-      height: 64px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+      height: 72px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
     .nav-brand {
       display: flex;
       align-items: center;
-      gap: 12px;
       text-decoration: none;
     }
-    .nav-brand-name {
-      font-family: Georgia, serif;
-      font-size: 0.9rem;
-      color: #F0EBE0;
-      letter-spacing: 0.04em;
-      line-height: 1.2;
-    }
-    .nav-brand-sub {
-      font-size: 0.55rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: rgba(240,235,224,0.45);
+    .nav-logo {
+      height: 58px;
+      width: auto;
       display: block;
     }
     .nav-links {
@@ -60,11 +51,11 @@
       font-size: 0.72rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: rgba(240,235,224,0.65);
+      color: #5A3D30;
       text-decoration: none;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: #F0EBE0; }
+    .nav-links a:hover { color: #9B3520; }
     @media (max-width: 640px) { .nav-links { display: none; } }
 
     /* HERO */
@@ -488,23 +479,7 @@
 <!-- NAV -->
 <nav class="nav">
   <a class="nav-brand" href="#">
-    <svg width="34" height="24" viewBox="0 0 130 90" fill="none">
-      <g stroke="#9B3520" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="7" y1="10" x2="26" y2="27"/>
-        <line x1="26" y1="27" x2="54" y2="27"/>
-        <line x1="76" y1="27" x2="104" y2="27"/>
-        <line x1="104" y1="27" x2="123" y2="10"/>
-        <line x1="65" y1="27" x2="65" y2="56"/>
-        <line x1="26" y1="56" x2="104" y2="56"/>
-        <path d="M26,56 A13,17 0 0,1 52.7,56"/>
-        <path d="M52.7,56 A13,17 0 0,1 79.3,56"/>
-        <path d="M79.3,56 A12.7,17 0 0,1 104,56"/>
-      </g>
-    </svg>
-    <div>
-      <span class="nav-brand-name">El Cheruvicha</span>
-      <span class="nav-brand-sub">Curupayá S.A.</span>
-    </div>
+    <img class="nav-logo" src="images/logo.png" alt="Cábaña El Cheruvicha">
   </a>
   <ul class="nav-links">
     <li><a href="#raza">La raza</a></li>
@@ -654,19 +629,7 @@
 <footer class="footer" id="contacto">
   <div class="footer-grid">
     <div>
-      <svg width="40" height="28" viewBox="0 0 130 90" fill="none">
-        <g stroke="#9B3520" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="7" y1="10" x2="26" y2="27"/>
-          <line x1="26" y1="27" x2="54" y2="27"/>
-          <line x1="76" y1="27" x2="104" y2="27"/>
-          <line x1="104" y1="27" x2="123" y2="10"/>
-          <line x1="65" y1="27" x2="65" y2="56"/>
-          <line x1="26" y1="56" x2="104" y2="56"/>
-          <path d="M26,56 A13,17 0 0,1 52.7,56"/>
-          <path d="M52.7,56 A13,17 0 0,1 79.3,56"/>
-          <path d="M79.3,56 A12.7,17 0 0,1 104,56"/>
-        </g>
-      </svg>
+      <img src="images/logo.png" alt="Cábaña El Cheruvicha" style="height: 90px; width: auto; mix-blend-mode: screen; filter: invert(1) sepia(0.3) brightness(1.1);">
       <div class="footer-brand-name">Cábaña El Cheruvicha</div>
       <p class="footer-brand-desc">Braford seleccionado para el nordeste argentino. Curupayá S.A. · Corrientes, Argentina.</p>
     </div>
