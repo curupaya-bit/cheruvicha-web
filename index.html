@@ -302,8 +302,10 @@
     /* CAMPOS */
     .campos-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
+      max-width: 860px;
+      margin: 0 auto;
     }
     .campo-card {
       background: #fff;
@@ -349,6 +351,49 @@
     }
     @media (max-width: 680px) {
       .campos-grid { grid-template-columns: 1fr; }
+    }
+
+    /* NOSOTROS */
+    .nosotros-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+      margin-top: 48px;
+    }
+    .nosotros-col h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #9B3520;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+    .nosotros-col h3:first-child { margin-top: 0; }
+    .nosotros-col p {
+      font-size: 0.95rem;
+      color: #4A3326;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+    .nosotros-col p:last-child { margin-bottom: 0; }
+    .nosotros-quote {
+      border-left: 3px solid #9B3520;
+      padding: 18px 24px;
+      background: #F3EFEA;
+      margin: 32px 0 0;
+      border-radius: 0 6px 6px 0;
+    }
+    .nosotros-quote p {
+      font-size: 1rem;
+      font-style: italic;
+      color: #3D2510;
+      line-height: 1.7;
+      margin: 0;
+    }
+    @media (max-width: 760px) {
+      .nosotros-grid { grid-template-columns: 1fr; gap: 32px; }
     }
 
     /* OFERTA */
@@ -482,6 +527,7 @@
     <img class="nav-logo" src="images/logo.png" alt="Cábaña El Cheruvicha">
   </a>
   <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
     <li><a href="#raza">La raza</a></li>
     <li><a href="#campos">Campos</a></li>
     <li><a href="#reproductores">Reproductores</a></li>
@@ -505,7 +551,7 @@
 <!-- STATS -->
 <div class="stats">
   <div class="stat">
-    <div class="stat-num">3</div>
+    <div class="stat-num">2</div>
     <div class="stat-label">Campos propios</div>
   </div>
   <div class="stat">
@@ -523,6 +569,34 @@
 </div>
 
 <!-- RAZA -->
+<!-- NOSOTROS -->
+<section class="section section-alt" id="nosotros">
+  <div class="section-head reveal">
+    <span class="section-label">Quiénes somos</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="section-title reveal">Una historia familiar que se transforma en legado</div>
+  <div class="nosotros-grid">
+    <div class="nosotros-col reveal">
+      <p>El Cheruvicha nace de una historia familiar construida a lo largo de generaciones, con el compromiso de continuar un proyecto que comenzó con Raúl Badaracco, fundador e impulsor de los campos Don Tulio y San Marcelo.</p>
+      <p>En su homenaje nace el nombre de nuestra cabaña: El Cheruvicha, una denominación que dentro de nuestra tradición familiar representa a quien guía y lidera a su comunidad, y que simboliza la figura de Raúl como iniciador y referente de este proyecto.</p>
+      <p>Raúl, junto a Inés Fernández Dos Santos, presidenta de Curupayá S.A., formó una familia de tres hijos: Guillermo, Marcelo y Tulio. Hoy, cada uno de ellos continúa aportando su experiencia y dedicación desde distintas áreas, dando continuidad a una visión que comenzó décadas atrás.</p>
+      <div class="nosotros-quote">
+        <p>El Cheruvicha es familia, campo y futuro. Un proyecto que comenzó con Raúl y que hoy continúa creciendo con la misma convicción: trabajar la tierra, criar ganado y construir un legado para las próximas generaciones.</p>
+      </div>
+    </div>
+    <div class="nosotros-col reveal reveal-d1">
+      <h3>Un proyecto que integra campo, producción y familia</h3>
+      <p>Curupayá S.A. desarrolla sus actividades productivas principalmente en sus campos de Corrientes, donde se combinan la forestación, la producción de yerba mate y, especialmente, la cría bovina.</p>
+      <p>Dentro de este proyecto familiar se encuentra El Cheruvicha, nuestra cabaña, concebida como un nuevo paso en el desarrollo ganadero y como expresión del compromiso de la familia con la producción, la genética y la mejora continua.</p>
+      <p>El proyecto también integra la actividad forestal con la industria. Las plantaciones de pino desarrolladas en nuestros campos completan su ciclo productivo en el Aserradero Induba S.R.L., ubicado en Candelaria, Misiones. Allí, Guillermo y Tulio participan actualmente en el desarrollo y conducción de esta actividad, consolidando una visión integral que une producción primaria, industria y generación de valor.</p>
+      <h3>El presente y el futuro</h3>
+      <p>Marcelo está actualmente al frente de las explotaciones productivas de los campos Don Tulio y San Marcelo, llevando adelante el desarrollo de El Cheruvicha y trabajando en la evolución de nuestro proyecto ganadero.</p>
+      <p>La cabaña representa mucho más que una nueva unidad productiva. Es la continuidad de una historia familiar, el resultado de años de trabajo en el campo y el compromiso de una nueva generación por llevar adelante el legado recibido.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="raza">
   <div class="section-head reveal">
     <span class="section-label">La raza</span>
@@ -573,14 +647,6 @@
         <span class="campo-tag">Ganadero · Forestal</span>
         <div class="campo-nombre">Don Tulio</div>
         <p class="campo-desc">Producción ganadera y forestal integrada. Campos en expansión con manejo rotacional y mejoramiento de pasturas nativas.</p>
-      </div>
-    </div>
-    <div class="campo-card reveal reveal-d2">
-      <img class="campo-img" src="images/IMG_5236.jpeg" alt="El Cheruvicha – sede de la cabaña">
-      <div class="campo-body">
-        <span class="campo-tag">Sede · Cabaña</span>
-        <div class="campo-nombre">El Cheruvicha</div>
-        <p class="campo-desc">Sede de la cabaña. Toros y vaquillonas de pedigree seleccionados por DEPs y performance real. El origen del hierro.</p>
       </div>
     </div>
   </div>
