@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiénes somos – Cabaña El Cheruvicha</title>
+  <meta name="description" content="La historia familiar detrás de Cabaña El Cheruvicha. Curupayá S.A., Corrientes, Argentina.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #FAFAF8;
+      color: #1C0A04;
+      font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    .nav {
+      background: #F2EBE0;
+      border-bottom: 1px solid #DDD4CB;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(20px, 5vw, 64px);
+      height: 90px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .nav-brand { display: flex; align-items: center; text-decoration: none; }
+    .nav-logo { height: 78px; width: auto; display: block; }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #5A3D30;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: #9B3520; }
+    @media (max-width: 640px) { .nav-links { display: none; } }
+
+    /* PAGE HEADER */
+    .page-header {
+      background: #1C0A04;
+      padding: clamp(48px, 8vw, 96px) clamp(20px, 6vw, 80px);
+      text-align: center;
+    }
+    .page-header-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #9B3520;
+      margin-bottom: 16px;
+    }
+    .page-header-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: #F2EBE0;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    /* CONTENT */
+    .page-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: clamp(48px, 7vw, 96px) clamp(20px, 6vw, 80px);
+    }
+
+    .nosotros-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+    }
+    @media (max-width: 760px) {
+      .nosotros-grid { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    .nosotros-col h3 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #9B3520;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      margin-top: 40px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #DDD4CB;
+    }
+    .nosotros-col h3:first-child { margin-top: 0; }
+
+    .nosotros-col p {
+      font-size: 0.97rem;
+      color: #4A3326;
+      line-height: 1.85;
+      margin-bottom: 18px;
+    }
+    .nosotros-col p:last-child { margin-bottom: 0; }
+
+    .nosotros-quote {
+      border-left: 3px solid #9B3520;
+      padding: 20px 24px;
+      background: #F3EFEA;
+      margin-top: 40px;
+      border-radius: 0 6px 6px 0;
+    }
+    .nosotros-quote p {
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #3D2510;
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    /* FOOTER */
+    .footer {
+      background: #120205;
+      color: #9B8070;
+      padding: clamp(40px, 6vw, 72px) clamp(20px, 6vw, 64px) 32px;
+      margin-top: 0;
+    }
+    .footer-legal {
+      display: block;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: #6B4E42;
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #2A1010;
+    }
+    .footer-back {
+      text-align: center;
+    }
+    .footer-back a {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #9B8070;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-back a:hover { color: #F2EBE0; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-brand" href="index.html">
+    <img class="nav-logo" src="images/logo.png" alt="Cábaña El Cheruvicha">
+  </a>
+  <ul class="nav-links">
+    <li><a href="nosotros.html" class="active">Nosotros</a></li>
+    <li><a href="index.html#raza">La raza</a></li>
+    <li><a href="index.html#campos">Campos</a></li>
+    <li><a href="index.html#reproductores">Reproductores</a></li>
+    <li><a href="index.html#galeria">Galería</a></li>
+    <li><a href="index.html#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <p class="page-header-label">Curupayá S.A. · Corrientes, Argentina</p>
+  <h1 class="page-header-title">Una historia familiar que se transforma en legado</h1>
+</div>
+
+<div class="page-content">
+  <div class="nosotros-grid">
+    <div class="nosotros-col">
+      <h3>El origen del nombre</h3>
+      <p>El Cheruvicha nace de una historia familiar construida a lo largo de generaciones, con el compromiso de continuar un proyecto que comenzó con Raúl Badaracco, fundador e impulsor de los campos Don Tulio y San Marcelo.</p>
+      <p>En su homenaje nace el nombre de nuestra cabaña: El Cheruvicha, una denominación que dentro de nuestra tradición familiar representa a quien guía y lidera a su comunidad, y que simboliza la figura de Raúl como iniciador y referente de este proyecto.</p>
+      <p>Raúl, junto a Inés Fernández Dos Santos, presidenta de Curupayá S.A., formó una familia de tres hijos: Guillermo, Marcelo y Tulio. Hoy, cada uno de ellos continúa aportando su experiencia y dedicación desde distintas áreas, dando continuidad a una visión que comenzó décadas atrás.</p>
+
+      <h3>El presente y el futuro</h3>
+      <p>Marcelo está actualmente al frente de las explotaciones productivas de los campos Don Tulio y San Marcelo, llevando adelante el desarrollo de El Cheruvicha y trabajando en la evolución de nuestro proyecto ganadero.</p>
+      <p>La cabaña representa mucho más que una nueva unidad productiva. Es la continuidad de una historia familiar, el resultado de años de trabajo en el campo y el compromiso de una nueva generación por llevar adelante el legado recibido.</p>
+
+      <div class="nosotros-quote">
+        <p>El Cheruvicha es familia, campo y futuro. Un proyecto que comenzó con Raúl y que hoy continúa creciendo con la misma convicción: trabajar la tierra, criar ganado y construir un legado para las próximas generaciones.</p>
+      </div>
+    </div>
+
+    <div class="nosotros-col">
+      <h3>Un proyecto que integra campo, producción y familia</h3>
+      <p>Curupayá S.A. desarrolla sus actividades productivas principalmente en sus campos de Corrientes, donde se combinan la forestación, la producción de yerba mate y, especialmente, la cría bovina.</p>
+      <p>Dentro de este proyecto familiar se encuentra El Cheruvicha, nuestra cabaña, concebida como un nuevo paso en el desarrollo ganadero y como expresión del compromiso de la familia con la producción, la genética y la mejora continua.</p>
+      <p>El proyecto también integra la actividad forestal con la industria. Las plantaciones de pino desarrolladas en nuestros campos completan su ciclo productivo en el Aserradero Induba S.R.L., ubicado en Candelaria, Misiones. Allí, Guillermo y Tulio participan actualmente en el desarrollo y conducción de esta actividad, consolidando una visión integral que une producción primaria, industria y generación de valor.</p>
+
+      <h3>La cabaña</h3>
+      <p>El Cheruvicha es la expresión más concreta del compromiso familiar con la genética bovina. Dentro del proyecto productivo de Curupayá S.A., la cabaña se posiciona como un espacio de selección rigurosa, orientada a la producción de reproductores Braford adaptados al nordeste argentino.</p>
+      <p>Cada animal que sale de El Cheruvicha lleva consigo décadas de criterio, campo y familia.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-back">
+    <a href="index.html">← Volver al inicio</a>
+  </div>
+  <span class="footer-legal">© Curupayá S.A. · Cabaña El Cheruvicha · Corrientes</span>
+</footer>
+
+</body>
+</html>
