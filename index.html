@@ -475,6 +475,26 @@
       .reveal { opacity: 1; transform: none; transition: none; }
     }
 
+
+    /* GENÉTICA */
+    .gen-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: clamp(32px, 6vw, 72px);
+      align-items: start;
+    }
+    .gen-body p { font-size: 0.98rem; color: #5A3D30; line-height: 1.8; margin-bottom: 16px; max-width: 60ch; }
+    .gen-hitos { display: flex; gap: 28px; margin-top: 28px; flex-wrap: wrap; }
+    .gen-hito-num { font-family: Georgia, serif; font-size: 2.2rem; color: #9B3520; line-height: 1; }
+    .gen-hito-txt { font-size: 0.65rem; letter-spacing: 0.16em; text-transform: uppercase; color: #5A3D30; margin-top: 6px; }
+    .gen-toros { background: #fff; border: 1px solid #DDD4CB; padding: 28px; }
+    .gen-toros h3 { font-family: Georgia, serif; font-weight: normal; font-size: 1.3rem; color: #1C0A04; margin-bottom: 18px; }
+    .gen-centro { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: #9B3520; margin: 16px 0 10px; }
+    .gen-chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; }
+    .gen-chips li { font-size: 0.85rem; color: #1C0A04; background: #F3EFEA; border: 1px solid #E5DCD2; padding: 5px 12px; border-radius: 999px; }
+    .gen-nota { font-size: 0.8rem; color: #8A6E62; margin-top: 18px; }
+    @media (max-width: 760px) { .gen-grid { grid-template-columns: 1fr; } }
+
     /* BOTÓN FLOTANTE WHATSAPP */
     .wa-float {
       position: fixed;
@@ -512,6 +532,7 @@
     <li><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Inicio</a></li>
     <li><a href="nosotros.html">Nosotros</a></li>
     <li><a href="#raza">La raza</a></li>
+    <li><a href="#genetica">Genética</a></li>
     <li><a href="#campos">Campos</a></li>
     <li><a href="#reproductores">Reproductores</a></li>
     <li><a href="#galeria">Galería</a></li>
@@ -542,8 +563,8 @@
     <div class="stat-label">Adaptación comprobada</div>
   </div>
   <div class="stat">
-    <div class="stat-num">100%</div>
-    <div class="stat-label">Pedigree verificado</div>
+    <div class="stat-num">+25</div>
+    <div class="stat-label">Años de inseminación</div>
   </div>
   <div class="stat">
     <div class="stat-num">Braford</div>
@@ -572,6 +593,33 @@
         <div class="attr"><span class="attr-label">Conversión</span><span class="attr-val">Eficiente en pasturas tropicales</span></div>
         <div class="attr"><span class="attr-label">Origen</span><span class="attr-val">Hereford × Brahman</span></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- GENÉTICA -->
+<section class="section section-alt" id="genetica">
+  <div class="section-head reveal">
+    <span class="section-label">Nuestra genética</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="gen-grid">
+    <div class="gen-body reveal">
+      <h2 class="section-title">Más de 25 años seleccionando genética</h2>
+      <p>Desde 1999 inseminamos nuestros rodeos con semen de los principales centros genéticos del país, como CIAVT y CIALE, y elegimos año tras año los mejores toros Braford. Así fuimos formando, generación tras generación, un rodeo adaptado a los campos de Corrientes.</p>
+      <p>En 2025 ese trabajo se convirtió en cabaña: así nació El Cheruvicha, con sus animales registrados en Braford.</p>
+      <div class="gen-hitos">
+        <div><div class="gen-hito-num">1999</div><div class="gen-hito-txt">Primeras inseminaciones</div></div>
+        <div><div class="gen-hito-num">2025</div><div class="gen-hito-txt">Registro de la cabaña</div></div>
+      </div>
+    </div>
+    <div class="gen-toros reveal reveal-d1">
+      <h3>Algunos de los toros que usamos</h3>
+      <div class="gen-centro">CIAVT</div>
+      <ul class="gen-chips"><li>Diógenes</li><li>Magno</li><li>Midas</li><li>Payador</li><li>Simón</li><li>Mitaí</li><li>Navideño</li><li>Máximo</li><li>Charaday</li><li>Peguajó</li><li>X Bull</li></ul>
+      <div class="gen-centro">CIALE</div>
+      <ul class="gen-chips"><li>Pirata</li><li>Curundú</li><li>Amargo</li><li>Benito</li><li>Cherubicha</li><li>Timbó</li><li>Lagrimita</li><li>Franco</li><li>Pragmático</li><li>Ka'arú</li><li>Experto</li><li>Aimar</li></ul>
+      <p class="gen-nota">Entre otros.</p>
     </div>
   </div>
 </section>
@@ -659,6 +707,7 @@
       <div class="footer-col-title">La cabaña</div>
       <ul>
         <li><a href="#raza">La raza</a></li>
+        <li><a href="#genetica">Genética</a></li>
         <li><a href="#campos">Nuestros campos</a></li>
         <li><a href="#reproductores">Reproductores</a></li>
         <li><a href="#galeria">Galería</a></li>
