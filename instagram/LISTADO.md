@@ -6,7 +6,7 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 |----|---------|------|------|------------------------|--------|
 | 001 | material/001-terneros-don-tulio-2026.jpg | Foto | Terneros | Terneros nacidos 2026 al pie de la madre (Don Tulio) | Borrador de texto |
 | 002 | material/002-ternero-recien-nacido.jpg | Foto | Terneros | Ternero recién nacido junto a la madre. Don Tulio, 2026 | Borrador de texto |
-| 003 | material/003-vaca-astada-con-ternero.jpg | Foto | Rodeo | Ternero de embrión (transferencia embrionaria) con su madre receptora, la vaca astada. Don Tulio, 2026. Misma foto que la página | Borrador de texto |
+| 003 | material/003-vaca-astada-con-ternero.jpg | Foto | Rodeo | Ternero de embrión (Mitaí x donante E238) con su madre receptora, la vaca astada. Don Tulio, 2026. Misma foto que la página | Borrador de texto |
 | 004 | material/004-rodeo-bajo-la-lluvia.jpg | Foto | Campo | Vacas y ternero bajo la lluvia. Don Tulio, 2026 | Borrador de texto |
 
 ## Borradores de texto
@@ -26,10 +26,10 @@ Cada nacimiento es el resultado de años de selección.
 
 ### 003 – Ternero de embrión con su madre receptora, Don Tulio
 Genética que se trabaja. 🧬
-Este ternero nació por transferencia embrionaria: lleva la genética que elegimos para la cabaña y lo gestó una vaca receptora, la que está echada a su lado.
+Este ternero nació por transferencia embrionaria. Es hijo del toro Mitaí (CIAVT) y de nuestra vaca donante E238, y lo gestó una vaca receptora: la que está echada a su lado.
 Don Tulio, 2026.
 
-#braford #transferenciaembrionaria #embriones #genetica #cria #ganaderia #corrientes #elcherubicha
+#braford #transferenciaembrionaria #embriones #genetica #mitai #ciavt #cria #ganaderia #corrientes #elcherubicha
 
 ### 004 – Bajo la lluvia, Don Tulio
 Con sol o con lluvia, el rodeo sigue. 🌧️
