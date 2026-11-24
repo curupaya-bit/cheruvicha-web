@@ -17,6 +17,8 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 011 | material/011a/011b (carrusel de 2) | Carrusel | Caballos | Potranca overa "Manchitas" en Don Tulio + pony con caballo oscuro entre los pinos, Don Tulio | Borrador de texto |
 | 012 | material/012a..012e (carrusel de 5) | Carrusel | Toros en venta | Los 5 toros de 2 años o más de la página. Cierra la base de 12 | Borrador de texto |
 
+| — | material/toros-nuevos/ (5 fotos) | Fotos | Toros | 5 fotos nuevas de toros, sin descripción todavía. ¿En venta? ¿Para la 12 y la página? | Esperando datos |
+
 ## Borradores de texto
 
 ### 001 – Terneros 2026, Don Tulio
