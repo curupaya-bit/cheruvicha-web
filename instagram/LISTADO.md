@@ -8,6 +8,8 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 002 | material/002-ternero-recien-nacido.jpg | Foto | Terneros | Ternero recién nacido junto a la madre. Don Tulio, 2026 | Borrador de texto |
 | 003 | material/003-vaca-astada-con-ternero.jpg | Foto | Rodeo | Ternero de embrión (Mitaí x donante E238) con su madre receptora, la vaca astada. Don Tulio, 2026. Misma foto que la página | Borrador de texto |
 | 004 | material/004-rodeo-bajo-la-lluvia.jpg | Foto | Campo | Vacas y ternero bajo la lluvia. Don Tulio, 2026 | Borrador de texto |
+| 005 | material/005a/005b/005c (carrusel de 3) | Carrusel | Genética | Macho de embrión, caravana 4652, en 3 fotos (parado frente al galpón, echado en el galpón, echado junto al comedero). Falta: padres, edad, campo | Esperando datos |
+| 006 | material/006-machos-embrion-comedero.jpg | Foto | Genética | Varios machos de embrión comiendo en el comedero. Falta: campo, edad | Esperando datos |
 
 ## Borradores de texto
 
