@@ -10,6 +10,8 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 004 | material/004-rodeo-bajo-la-lluvia.jpg | Foto | Campo | Vacas y ternero bajo la lluvia. Don Tulio, 2026 | Borrador de texto |
 | 005 | material/005a/005b/005c (carrusel de 3) | Carrusel | Genética | Macho de embrión, caravana 4652, en 3 fotos. Hijo de Mitaí x donante E238, nacido fines de febrero 2026. Don Tulio, 2026 | Borrador de texto |
 | 006 | material/006-machos-embrion-comedero.jpg | Foto | Genética | Machos y hembras de embrión, hermanos del mismo toro (Mitaí, a confirmar). Don Tulio, 2026 | Borrador de texto |
+| 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. Falta año | Borrador de texto |
+| 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo. Falta año | Borrador de texto |
 
 ## Borradores de texto
 
@@ -53,3 +55,16 @@ Machos y hembras nacidos por transferencia embrionaria, todos hijos del mismo to
 Así vamos construyendo la genética de El Cherubicha. Don Tulio, 2026.
 
 #braford #transferenciaembrionaria #embriones #genetica #mitai #recria #cabaña #corrientes #elcherubicha
+
+### 007 – Atardecer en San Marcelo
+Así terminan los días en San Marcelo. 🌅
+Terneros en fila al borde del agua, en el campo donde empezó todo.
+
+#braford #atardecer #sanmarcelo #campo #corrientes #esteros #ganaderia #nea #elcherubicha
+
+### 008 – Día de manga: tratamientos a los terneros
+Día de corral. 💉
+Vacunamos y desparasitamos a los terneros: la sanidad es la base de todo lo que viene después.
+San Marcelo.
+
+#braford #sanidad #vacunacion #terneros #manejo #ganaderia #corrientes #campo #elcherubicha
