@@ -12,6 +12,7 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 006 | material/006-machos-embrion-comedero.jpg | Foto | Genética | Machos y hembras de embrión, hermanos del mismo toro (Mitaí, a confirmar). Don Tulio, 2026 | Borrador de texto |
 | 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. Falta año | Borrador de texto |
 | 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo. Falta año | Borrador de texto |
+| 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. Falta campo y año | Borrador de texto |
 
 ## Borradores de texto
 
@@ -68,3 +69,10 @@ Vacunamos y desparasitamos a los terneros: la sanidad es la base de todo lo que 
 San Marcelo.
 
 #braford #sanidad #vacunacion #terneros #manejo #ganaderia #corrientes #campo #elcherubicha
+
+### 009 – Al pie de la madre (carrusel: 009a, 009b, 009c)
+Al pie de la madre. 🐄🐮
+Vacas y terneros a campo, con el pinar de fondo. Así se crían los terneros de El Cherubicha: a campo abierto, junto a sus madres.
+Deslizá para ver más 👉
+
+#braford #terneros #vacadecria #cria #campo #ganaderia #corrientes #nea #elcherubicha
