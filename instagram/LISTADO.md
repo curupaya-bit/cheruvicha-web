@@ -13,7 +13,7 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. San Marcelo | Borrador de texto |
 | 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo | Borrador de texto |
 | 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. San Marcelo (pinos de la forestación propia) | Borrador de texto |
-| 010 | material/010-carpinchos-san-marcelo.jpg | Foto | Naturaleza | Carpinchos en el estero, San Marcelo. OJO: parece foto de una pantalla y tiene una firma chica abajo a la derecha; confirmar autor | Borrador de texto |
+| 010 | material/010-carpinchos-san-marcelo.jpg | Foto | Naturaleza | Carpinchos en el estero, San Marcelo. Foto original (reemplaza la sacada a la pantalla) | Borrador de texto |
 | 011 | material/011a/011b (carrusel de 2) | Carrusel | Caballos | Potranca overa en Don Tulio + pony con caballo oscuro entre los pinos, Don Tulio | Borrador de texto |
 
 ## Borradores de texto
