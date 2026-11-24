@@ -10,9 +10,9 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 004 | material/004-rodeo-bajo-la-lluvia.jpg | Foto | Campo | Vacas y ternero bajo la lluvia. Don Tulio, 2026 | Borrador de texto |
 | 005 | material/005a/005b/005c (carrusel de 3) | Carrusel | Genética | Macho de embrión, caravana 4652, en 3 fotos. Hijo de Mitaí x donante E238, nacido fines de febrero 2026. Don Tulio, 2026 | Borrador de texto |
 | 006 | material/006-machos-embrion-comedero.jpg | Foto | Genética | Machos y hembras de embrión, hermanos del mismo toro (Mitaí, a confirmar). Don Tulio, 2026 | Borrador de texto |
-| 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. Falta año | Borrador de texto |
-| 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo. Falta año | Borrador de texto |
-| 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. Falta campo y año | Borrador de texto |
+| 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. San Marcelo | Borrador de texto |
+| 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo | Borrador de texto |
+| 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. San Marcelo (pinos de la forestación propia) | Borrador de texto |
 
 ## Borradores de texto
 
@@ -72,7 +72,7 @@ San Marcelo.
 
 ### 009 – Al pie de la madre (carrusel: 009a, 009b, 009c)
 Al pie de la madre. 🐄🐮
-Vacas y terneros a campo, con el pinar de fondo. Así se crían los terneros de El Cherubicha: a campo abierto, junto a sus madres.
+Vacas y terneros a campo en San Marcelo, con nuestros pinares de fondo: acá la ganadería y la forestación conviven. Así se crían los terneros de El Cherubicha, a campo abierto y junto a sus madres.
 Deslizá para ver más 👉
 
-#braford #terneros #vacadecria #cria #campo #ganaderia #corrientes #nea #elcherubicha
+#braford #terneros #vacadecria #cria #sanmarcelo #forestacion #ganaderia #corrientes #elcherubicha
