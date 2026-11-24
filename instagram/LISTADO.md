@@ -15,9 +15,8 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. San Marcelo (pinos de la forestación propia) | Borrador de texto |
 | 010 | material/010-carpinchos-san-marcelo.jpg | Foto | Naturaleza | Carpinchos en el estero, San Marcelo. Foto original, sacada por Marcelo | Borrador de texto |
 | 011 | material/011a/011b (carrusel de 2) | Carrusel | Caballos | Potranca overa "Manchitas" en Don Tulio + pony con caballo oscuro entre los pinos, Don Tulio | Borrador de texto |
-| 012 | material/012a..012e (carrusel de 5) | Carrusel | Toros en venta | Los 5 toros de 2 años o más de la página. Cierra la base de 12 | Borrador de texto |
+| 012 | material/012a..012i (carrusel de 9) | Carrusel | Toros en venta | Toros de 2 años en venta. Don Tulio, octubre 2026 (012b-e nuevas). Cierra la base de 12 | Borrador de texto |
 
-| — | material/toros-nuevos/ (5 fotos) | Fotos | Toros | 5 fotos nuevas de toros, sin descripción todavía. ¿En venta? ¿Para la 12 y la página? | Esperando datos |
 
 ## Borradores de texto
 
@@ -95,9 +94,9 @@ Deslizá 👉
 
 #caballos #potranca #pony #campo #dontulio #corrientes #vidadecampo #elcherubicha
 
-### 012 – Toros en venta (carrusel: 012a a 012e)
+### 012 – Toros en venta (carrusel: 012a a 012i)
 Toros Braford a la venta. 🐂
-Reproductores de 2 años o más, criados a campo en Corrientes y seleccionados por conformación, temperamento y adaptación.
+Toros de 2 años, criados a campo en Don Tulio y seleccionados por conformación, temperamento y adaptación. Fotos de octubre 2026.
 Detrás de cada uno hay más de 25 años de inseminación y selección.
 📲 Consultas por WhatsApp (link en el perfil) · elcherubicha.com.ar
 Deslizá para verlos 👉
