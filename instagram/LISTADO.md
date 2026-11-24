@@ -13,8 +13,9 @@ Carpeta de trabajo (no se publica en la página). Cada pieza: archivo, qué es y
 | 007 | material/007-atardecer-san-marcelo.jpg | Foto | Campo | Atardecer en San Marcelo, terneros en fila reflejados en el agua. Es la foto de portada de la página. San Marcelo | Borrador de texto |
 | 008 | material/008-terneros-corral-tratamientos.jpg | Foto | Trabajo | Terneros en el corral durante los tratamientos (vacunas, desparasitación). San Marcelo | Borrador de texto |
 | 009 | material/009a/009b/009c (carrusel de 3) | Carrusel | Terneros | Vacas a campo con terneros al pie (3 fotos, pinos atrás). Son las mismas fotos de la parte Terneros de la página. San Marcelo (pinos de la forestación propia) | Borrador de texto |
-| 010 | material/010-carpinchos-san-marcelo.jpg | Foto | Naturaleza | Carpinchos en el estero, San Marcelo. Foto original (reemplaza la sacada a la pantalla) | Borrador de texto |
-| 011 | material/011a/011b (carrusel de 2) | Carrusel | Caballos | Potranca overa en Don Tulio + pony con caballo oscuro entre los pinos, Don Tulio | Borrador de texto |
+| 010 | material/010-carpinchos-san-marcelo.jpg | Foto | Naturaleza | Carpinchos en el estero, San Marcelo. Foto original, sacada por Marcelo | Borrador de texto |
+| 011 | material/011a/011b (carrusel de 2) | Carrusel | Caballos | Potranca overa "Manchitas" en Don Tulio + pony con caballo oscuro entre los pinos, Don Tulio | Borrador de texto |
+| 012 | material/012a..012e (carrusel de 5) | Carrusel | Toros en venta | Los 5 toros de 2 años o más de la página. Cierra la base de 12 | Borrador de texto |
 
 ## Borradores de texto
 
@@ -87,7 +88,16 @@ Una familia de carpinchos tomando sol en el estero de San Marcelo. El campo tamb
 
 ### 011 – Los caballos de Don Tulio (carrusel: 011a, 011b)
 Compañeros de trabajo. 🐴
-Una potranca overa y el pony de la casa, entre los pinares de Don Tulio. Sin ellos, no hay recorrida ni trabajo de campo.
+Manchitas, nuestra potranca overa, y el pony de la casa, entre los pinares de Don Tulio. Sin ellos, no hay recorrida ni trabajo de campo.
 Deslizá 👉
 
 #caballos #potranca #pony #campo #dontulio #corrientes #vidadecampo #elcherubicha
+
+### 012 – Toros en venta (carrusel: 012a a 012e)
+Toros Braford a la venta. 🐂
+Reproductores de 2 años o más, criados a campo en Corrientes y seleccionados por conformación, temperamento y adaptación.
+Detrás de cada uno hay más de 25 años de inseminación y selección.
+📲 Consultas por WhatsApp (link en el perfil) · elcherubicha.com.ar
+Deslizá para verlos 👉
+
+#braford #toros #torosbraford #reproductores #venta #genetica #ganaderia #corrientes #elcherubicha
